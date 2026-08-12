@@ -95,6 +95,14 @@ export default function AboutPage() {
                 <span className="text-purple-300">Founder:</span>
                 <span className="font-semibold text-white">Evang. (Dr.) A. A. Thomas</span>
               </li>
+              <li className="flex justify-between border-b border-purple-800/60 pb-2">
+                <span className="text-purple-300">School Mobile:</span>
+                <span className="font-semibold text-white"><a href="tel:+2348108514857">+234 810 851 4857</a></span>
+              </li>
+              <li className="flex justify-between border-b border-purple-800/60 pb-2">
+                <span className="text-purple-300">School Email:</span>
+                <span className="font-semibold text-white"><a href="mailto:stccollege2020@gmail.com">stccollege2020@gmail.com</a></span>
+              </li>
             </ul>
           </div>
         </div>
