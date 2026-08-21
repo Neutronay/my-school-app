@@ -179,7 +179,7 @@ export default async function HomePage() {
       {/* Footer */}
       <footer className="bg-gray-900 text-gray-400 py-10 border-t border-gray-800 text-center text-sm">
         <div className="max-w-6xl mx-auto px-4 space-y-3">
-          <p className="font-semibold text-white">STC Group of Schools</p>
+          <p className="font-semibold text-white">STC College, a subsidary of School Time Communication Limited</p>
           <p className="text-xs text-gray-500">In God We Trust</p>
           <p className="pt-2">© {new Date().getFullYear()} STC Group of Schools. All rights reserved.</p>
         </div>
