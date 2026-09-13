@@ -8,54 +8,54 @@ export const metadata = {
 
 export default function StaffPage() {
   const management = [
-    { name: "Jimoh Sulaiman", title: "Principal", qualification: "HND Business Admin, PGDE", role: "Overall administration, academic excellence, and strategic school development." },
-    { name: "Joseph Tom", title: "Vice Principal (Senior)", qualification: "B.Ed Physics", role: "Overseeing academic activities and maintaining high educational standards (10+ years experience)." },
+    { name: "Jimoh Sulaiman", title: "Principal", qualification: "Education Professional", role: "Overall administration, academic excellence, and strategic school development." },
+    { name: "Joseph Tom", title: "Vice Principal (Senior)", qualification: "Education Professional", role: "Overseeing academic activities and maintaining high educational standards (10+ years experience)." },
     { name: "Edun Ayobami", title: "Vice Principal (Junior)", qualification: "Education Professional", role: "Managing junior secondary academic programs and student discipline." },
-    { name: "John Emajimite Safe", title: "Ass. Principal II / Science Lead", qualification: "B.Sc (Edu) Chemistry", role: "Leading science education, critical thinking, and chemistry instruction." },
+    { name: "John Emajimite Safe", title: "Ass. Principal II / Science Lead", qualification: "Education Professional", role: "Leading science education, critical thinking, and chemistry instruction." },
     { name: "Frank Odinaka", title: "Ass. Principal III", qualification: "Education Professional", role: "Assisting in secondary academic coordination and student affairs." },
-    { name: "Taiwo Morenikeji", title: "Ass. Vice Principal", qualification: "NCE Early Childhood Education", role: "Ensuring student grooming, adherence to dress codes, and personal hygiene standards." },
-    { name: "Alabi Rasheedat Adeola", title: "Ass. Vice Principal / Health Supervisor", qualification: "HND Biochemistry, PGDE", role: "Promoting student and staff health, safety, and hygiene monitoring." },
-    { name: "Adetunji Sholabomi", title: "School Administrator, (HR)", qualification: "B.Sc Mathematics, PGDE", role: "Coordinating administrative operations and school logistics." },
-    { name: "Osundare Oluwakemi", title: "Headteacher (Primary)", qualification: "Education Specialist", role: "Directing early childhood and primary education curriculum." },
+    { name: "Taiwo Morenikeji", title: "Ass. Vice Principal", qualification: "Education Professional", role: "Ensuring student grooming, adherence to dress codes, and personal hygiene standards." },
+    { name: "Alabi Rasheedat Adeola", title: "Ass. Vice Principal / Health Supervisor", qualification: "Education Professional", role: "Promoting student and staff health, safety, and hygiene monitoring." },
+    { name: "Adetunji Sholabomi", title: "School Administrator, (HR)", qualification: "Education Professional", role: "Coordinating administrative operations and school logistics." },
+    { name: "Osundare Oluwakemi", title: "Headteacher (Primary)", qualification: "Education Professional", role: "Directing early childhood and primary education curriculum." },
   ];
 
   const adminProfiles = [
-    { name: "Thomas Iyannu Ireti", qualification: "B.Sc Accounting, PGDE", role: "Academic Excellence & Active Engagement" },
-    { name: "Sobamowo Oluwatobiloba", qualification: "B.Sc Sociology", role: "Guidance & Student Counseling" },
-    { name: "Akinl Oliva", qualification: "B.Sc (Ed) Economics", role: "Discipline & Conducive Environment" },
-    { name: "Gbyomi Shakirat Funmilayo", qualification: "B.Sc Mass Communication", role: "Public Relations & Community Engagement" },
-    { name: "Iwem Desmond", qualification: "B.Sc Business Administration", role: "Attendance, Punctuality & Accountability" },
-    { name: "Yahya Folage Mujidat", qualification: "B.Sc Economics, PGDE", role: "Financial Operations & Bursary Management" },
+    { name: "Thomas Iyannu Ireti", qualification: "Education Professional", role: "Academic Excellence & Active Engagement" },
+    { name: "Sobamowo Oluwatobiloba", qualification: "Education Professional", role: "Guidance & Student Counseling" },
+    { name: "Akinl Oliva", qualification: "Education Professional", role: "Discipline & Conducive Environment" },
+    { name: "Gbyomi Shakirat Funmilayo", qualification: "Education Professional", role: "Public Relations & Community Engagement" },
+    { name: "Iwem Desmond", qualification: "Education Professional", role: "Attendance, Punctuality & Accountability" },
+    { name: "Yahya Folage Mujidat", qualification: "Education Professional", role: "Financial Operations & Bursary Management" },
   ];
 
   const teachingStaff = [
-    { name: "Lawrence Chinazom Onyeachu", specialty: "Primary School Teacher", status: "Full Time" },
-    { name: "Bello Folake", specialty: "Primary School Teacher", status: "Full Time" },
-    { name: "Awotundun Motunrayo", specialty: "Primary School Teacher", status: "Full Time" },
-    { name: "Racheal Gift Ogwe", specialty: "Primary School Teacher", status: "Full Time" },
-    { name: "Mary Tobiloba Sobamowo", specialty: "Primary School Teacher", status: "Full Time" },
-    { name: "Aina Adeola", specialty: "Primary School Teacher", status: "Full Time" },
-    { name: "Alli Habibat", specialty: "Primary School Teacher", status: "Full Time" },
-    { name: "Oshokoya Mariam", specialty: "Primary School Teacher", status: "Full Time" },
-    { name: "Ubah Mitchel Christopher", specialty: "ICT & Computing", status: "Full Time" },
-    { name: "Bankole Clara Olugbani", specialty: "Primary School Teacher", status: "Full Time" },
-    { name: "Angba Marget", specialty: "Primary School Teacher", status: "Full Time" },
-    { name: "Tolu Ogunmoroti", specialty: "Primary School Teacher", status: "Full Time" },
-    { name: "Jimoh Kansarat Temitope", specialty: "Primary School Teacher", status: "Full Time" },
-    { name: "Olaoye Olatundun Janet", specialty: "Primary School Teacher", status: "Full Time" },
-    { name: "Akerele Bushirah", specialty: "Primary School Teacher", status: "Full Time" },
-    { name: "Odejayi Olawale", specialty: "Primary School Teacher", status: "Full Time" },
-    { name: "Dorcas Brown", specialty: "Primary School Teacher", status: "Full Time" },
-    { name: "Omoragbon Juliana", status: "Full Time" },
-    { name: "Atakenu Abiodun", specialty: "Basic Science", status: "Part Time" },
-    { name: "Stephen Anumu Koffi", specialty: "French", status: "Part Time" },
-    { name: "Adewuyi Segun", specialty: "Commerce", status: "Part Time" },
-    { name: "Nkechi Chukwujekwu", specialty: "Geography", status: "Part Time" },
-    { name: "Nwangwugwu Thankgod Chiemela", specialty: "Economics", status: "Part Time" },
-    { name: "Fasina Oluwasemilore", specialty: "Technical Drawing", status: "Part Time" },
-    { name: "Godswill Friday Umanah", specialty: "Further Mathematics", status: "Part Time" },
-    { name: "Ajala Oluwadamilare Kabiru", specialty: "Yoruba Language", status: "Part Time" },
-    { name: "Sesan Omoju", specialty: "Financial Accounting", status: "Part Time" },
+    { name: "Lawrence Chinazom Onyeachu", specialty: "Primary School Teacher" },
+    { name: "Bello Folake", specialty: "Primary School Teacher" },
+    { name: "Awotundun Motunrayo", specialty: "Primary School Teacher" },
+    { name: "Racheal Gift Ogwe", specialty: "Primary School Teacher" },
+    { name: "Mary Tobiloba Sobamowo", specialty: "Primary School Teacher" },
+    { name: "Aina Adeola", specialty: "Primary School Teacher" },
+    { name: "Alli Habibat", specialty: "Primary School Teacher" },
+    { name: "Oshokoya Mariam", specialty: "Primary School Teacher" },
+    { name: "Ubah Mitchel Christopher", specialty: "ICT & Computing" },
+    { name: "Bankole Clara Olugbani", specialty: "Primary School Teacher" },
+    { name: "Angba Marget", specialty: "Primary School Teacher" },
+    { name: "Tolu Ogunmoroti", specialty: "Primary School Teacher" },
+    { name: "Jimoh Kansarat Temitope", specialty: "Primary School Teacher" },
+    { name: "Olaoye Olatundun Janet", specialty: "Primary School Teacher" },
+    { name: "Akerele Bushirah", specialty: "Primary School Teacher" },
+    { name: "Odejayi Olawale", specialty: "Primary School Teacher" },
+    { name: "Dorcas Brown", specialty: "Primary School Teacher" },
+    { name: "Omoragbon Juliana" },
+    { name: "Atakenu Abiodun", specialty: "Basic Science" },
+    { name: "Stephen Anumu Koffi", specialty: "French" },
+    { name: "Adewuyi Segun", specialty: "Commerce" },
+    { name: "Nkechi Chukwujekwu", specialty: "Geography" },
+    { name: "Nwangwugwu Thankgod Chiemela", specialty: "Economics" },
+    { name: "Fasina Oluwasemilore", specialty: "Technical Drawing" },
+    { name: "Godswill Friday Umanah", specialty: "Further Mathematics" },
+    { name: "Ajala Oluwadamilare Kabiru", specialty: "Yoruba Language" },
+    { name: "Sesan Omoju", specialty: "Financial Accounting" },
   ];
 
   const supportTeam = [
@@ -153,22 +153,19 @@ export default function StaffPage() {
         <div className="text-center max-w-2xl mx-auto mb-10">
           <span className="text-[#4C2380] font-bold text-sm tracking-wide uppercase">Academic Faculty</span>
           <h2 className="text-3xl font-bold text-gray-900 mt-1">Teaching Staff</h2>
-          <p className="text-gray-600 text-sm mt-2">Our passionate full-time and specialist educators.</p>
+          <p className="text-gray-600 text-sm mt-2">Our passionate and specialist educators.</p>
         </div>
 
         <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
             {teachingStaff.map((teacher, idx) => (
-              <div key={idx} className="p-3 rounded-lg border border-gray-100 bg-gray-50 flex justify-between items-center">
+              <div key={idx} className="p-3 rounded-lg border border-gray-100 bg-gray-50 flex items-center">
                 <div>
                   <p className="font-semibold text-gray-900 text-sm">{teacher.name}</p>
                   {teacher.specialty && (
                     <span className="text-[11px] text-[#4C2380] font-medium block">{teacher.specialty}</span>
                   )}
                 </div>
-                <span className={`text-[10px] font-bold px-2 py-0.5 rounded ${teacher.status === 'Full Time' ? 'bg-emerald-100 text-emerald-800' : 'bg-purple-100 text-[#4C2380]'}`}>
-                  {teacher.status}
-                </span>
               </div>
             ))}
           </div>
