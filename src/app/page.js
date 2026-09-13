@@ -18,15 +18,28 @@ export default async function HomePage() {
       <Navbar />
 
       {/* Hero Section */}
-      <header className="bg-[#4C2380] text-white py-24 px-4 text-center relative overflow-hidden">
+      <header className="relative text-white py-24 px-4 text-center overflow-hidden bg-gray-900">
+        {/* Background Image - opacity set to 60% for clear visibility */}
+        <Image
+          src="/stc-hero.jpg"
+          alt="STC Group of Schools Hero Background"
+          fill
+          priority
+          className="object-cover opacity-60"
+        />
+
+        {/* Lighter Gradient Overlay - protects text readability while showing the image */}
+        <div className="absolute inset-0 bg-gradient-to-t from-[#3b1b63]/80 via-[#4C2380]/40 to-black/30" />
+
+        {/* Content */}
         <div className="max-w-4xl mx-auto space-y-6 relative z-10">
           <span className="bg-[#FDB913] text-[#4C2380] text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-wider shadow-sm inline-block">
             STC Group of Schools
           </span>
-          <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight">
+          <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight drop-shadow-md">
             Nurturing Excellence, Building Future Leaders
           </h1>
-          <p className="text-lg md:text-xl text-purple-100 max-w-2xl mx-auto font-light leading-relaxed">
+          <p className="text-lg md:text-xl text-purple-100 max-w-2xl mx-auto font-light leading-relaxed drop-shadow">
             Academic Excellence, Character, and Integrity. Providing quality, affordable, and value-driven education.
           </p>
           <div className="pt-4 flex justify-center gap-4 flex-wrap">
